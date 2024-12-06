@@ -1,22 +1,22 @@
 /* General Styles */
 body {
-    background-color: #f4f4f9; /* Soft light color */
+    background-color: #121212; /* Dark background */
     font-family: 'Arial', Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333; /* Dark text color for readability */
+    color: #e0e0e0; /* Light text for readability */
 }
 
 /* Headings */
 h1, h2 {
     text-align: center;
-    color: #2c3e50; /* Deep blue-gray */
+    color: #81c784; /* Soft green accent */
     margin: 20px 0;
 }
 
 h2 {
-    border-bottom: 2px solid #3498db; /* Accent line under h2 */
+    border-bottom: 2px solid #66bb6a; /* Green accent underline */
     display: inline-block;
     padding-bottom: 5px;
     margin-bottom: 40px;
@@ -25,13 +25,13 @@ h2 {
 /* Links */
 a {
     text-decoration: none;
-    color: #3498db; /* Bright blue */
+    color: #4fc3f7; /* Bright cyan */
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #2c3e50; /* Darker blue on hover */
+    color: #81c784; /* Soft green on hover */
 }
 
 /* About Section */
@@ -50,15 +50,15 @@ a:hover {
     text-align: center;
     font-size: 1.2em;
     line-height: 1.8;
-    color: #555; /* Soft dark gray */
+    color: #b0bec5; /* Soft gray text */
 }
 
 .about img {
     width: 150px;
     height: 200px;
     border-radius: 15px;
-    border: 3px solid #3498db; /* Accent border */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 3px solid #81c784; /* Green accent */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Dark shadow */
 }
 
 /* Projects Section */
@@ -73,9 +73,9 @@ a:hover {
 }
 
 .project {
-    background: #ffffff; /* White card */
+    background: #1e1e1e; /* Dark card */
     border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Soft dark shadow */
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
@@ -85,7 +85,7 @@ a:hover {
 
 .project:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.9); /* Stronger shadow on hover */
 }
 
 .project img {
@@ -98,7 +98,7 @@ a:hover {
 
 .project p {
     font-size: 1em;
-    color: #555;
+    color: #b0bec5; /* Soft gray text */
     margin-top: 15px;
 }
 
@@ -106,17 +106,17 @@ a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2c3e50; /* Footer background */
-    color: #ffffff;
+    background-color: #1e1e1e; /* Dark footer background */
+    color: #b0bec5;
 }
 
 footer a {
-    color: #f4f4f9;
+    color: #4fc3f7; /* Cyan */
     text-decoration: underline;
 }
 
 footer a:hover {
-    color: #3498db;
+    color: #81c784; /* Green on hover */
 }
 
 /* Responsive Design */
